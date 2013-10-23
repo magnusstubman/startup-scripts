@@ -22,7 +22,7 @@
 	<key>RunAtLoad</key>
 	<true/>
 	<key>UserName</key>
-	<string>build-server</string>
+	<string><specify an osx username here></string>
 	<key>SessionCreate</key>
 	<true/>
 </dict>
