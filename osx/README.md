@@ -3,7 +3,7 @@ This approach uses LaunchDaemons to make perspective boot at startup, without re
 
 1. Update placeholders in [startup.sh](startup.sh) and [perspective.plist](perspective.plist) by replacing
 	* `<specify an osx username here>`  
-	We recommend you create a dedicated `perspective` user and use this
+	We recommend you create a dedicated `perspective` user
 	* `<specify the location of perspective root folder>`  
 	Example: `/Users/perspective/perspective`
 
@@ -16,4 +16,4 @@ This approach uses LaunchDaemons to make perspective boot at startup, without re
 
 To uninstall, run 
 
-		sudo launchctl load -w /Library/LaunchDaemons/perspective.plist
+	sudo launchctl load -w /Library/LaunchDaemons/perspective.plist
