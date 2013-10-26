@@ -1,7 +1,8 @@
-perspective-startup-scripts
+startup-scripts
 ==================
 
 * [osx](osx)
+
 
 License
 -------
