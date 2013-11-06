@@ -14,6 +14,6 @@ This approach uses LaunchDaemons to make perspective boot at startup, without re
 		sudo chmod 644 /Library/LaunchDaemons/perspective.plist
 		sudo launchctl load -w /Library/LaunchDaemons/perspective.plist
 
-To uninstall, run 
+To remove, run
 
-	sudo launchctl load -w /Library/LaunchDaemons/perspective.plist
+	sudo launchctl unload -w /Library/LaunchDaemons/perspective.plist
